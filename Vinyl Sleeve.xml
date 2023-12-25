@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+
+   <!-- Background Image -->
+    <settings backgroundImage="vinylbg.png" backgroundWidth="1920" backgroundHeight="1080" />
+
+
+
+    <element name="#Cover" type="AlbumCover" id="Tracks[0]" xAnchor="Panel.22.7" x="0" yAnchor="Panel.20.5" y="0" align="Top.Left" widthDock="Panel.Height.61" width="0" heightDock="Panel.Height.61" height="0" brightness="1.0"/>
+
+<element type="Field" id="albumArtist" xAnchor="#Cover.111" x="0" yAnchor="#Cover.42" y="0" align="Center" widthDock="x:#Cover.140" font="Lemon Milk" style="Regular" size="8" fg="0,0,0" />
+<element type="Field" id="publisher" xAnchor="#Cover.111" x="0" yAnchor="#Cover.46" y="0" align="Center" widthDock="x:#Cover.140" font="Lemon Milk" style="Regular" size="6" fg="0,0,0" />
+<element type="Field" id="Title" xAnchor="#Cover.111" x="0" yAnchor="#Cover.53" y="0" align="Center" widthDock="x:#Cover.140" font="Lemon Milk" style="Bold" size="10" fg="0,0,0" />
+<element type="Field" id="album" xAnchor="#Cover.111" x="0" yAnchor="#Cover.57" y="0" align="Center" widthDock="x:#Cover.140" font="Lemon Milk" style="Regular" size="8" fg="0,0,0" />
+<element type="Field" id="year (yyyy)" xAnchor="#Cover.111" x="0" yAnchor="#Cover.62" y="0" align="Center" widthDock="x:#Cover.140" font="Lemon Milk" style="Regular" size="8" fg="0,0,0" />
+
+
+<!-- Up Next -->
+	<element type="Block" xAnchor="#Cover.0" x="0" yAnchor="#Cover.Bottom" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" fg="255,255,255,255" mouseOverFg="0,255,255,255" bg="0,0,0,0" mouseOverBg="0,0,0,0">
+		<element type="Text" xAnchor="Panel.75" x="0" yAnchor="#Cover.Bottom" y="48" widthDock="Panel.20" width="0" align="left" font="Lemon Milk" style="Bold" size="8" fg="97, 45, 42" mouseOverFg="0,192,192,192">UP NEXT</element>
+		<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-5" yAnchor="#Cover.Bottom" y="72" widthDock="x:Panel.95" width="0" align="left" font="Lemon Milk" style="Bold" size="16" fg="97,45,42" mouseOverFg="0,192,192,192"><child id="Title" width="Panel.20"/></element>
+		<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-3" yAnchor="#Cover.Bottom" y="112" widthDock="x:Panel.95" width="0" align="left" font="Lemon Milk" style="Regular" size="12" fg="99,58,56" mouseOverFg="0,192,192,192"><child id="Album" width="Panel.20"/></element>
+		<element type="Field" id="Tracks[1]" xAnchor="Panel.75" x="-3" yAnchor="#Cover.Bottom" y="144" widthDock="x:Panel.95" width="0" align="left" font="Lemon Milk" style="Regular" size="12" fg="97,45,42" mouseOverFg="0,192,192,192"><child id="Artist" width="Panel.20"/></element>
+	</element>
+
+
+<!-- Music Controls -->
+	<element type="PlayerBar" xAnchor="Panel.0" x="0" yAnchor="Panel.0" y="0" width="0" height="0"/>
+
+	<element type="Block" xAnchor="#Cover.0" x="0" yAnchor="#Cover.Bottom" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" fg="0,255,255,255" mouseOverFg="255,255,255,255" bg="0,0,0,0" mouseOverBg="0,0,0,0">
+		<element type="Text" xAnchor="#Cover.Right" x="220" yAnchor="#Cover.Bottom" y="100" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPrevious">&#xE100;</element>
+
+		<element type="Text" xAnchor="#Cover.Right" x="364" yAnchor="#Cover.Bottom" y="100" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPause" visibleTrigger="Playing">&#xE103;</element>
+		<element type="Text" xAnchor="#Cover.Right" x="364" yAnchor="#Cover.Bottom" y="100" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPause" visibleTrigger="NotPlaying">&#xE102;</element>
+
+		<element type="Text" xAnchor="#Cover.Right" x="508" yAnchor="#Cover.Bottom" y="100" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayNext">&#xE101;</element>
+</element>
+
+
+</root>
