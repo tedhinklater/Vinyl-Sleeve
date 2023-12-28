@@ -6,8 +6,8 @@ Place "vinylbg.png" in Plugins\TheaterMode.List\SharedArtwork\
 
 Based on Fluent Carousel by mmakes and a Wallpaper Engine concept by Vairish.
 
-![Screenshot 2023-12-25 000315](https://github.com/tedhinklater/Vinyl-Sleeve/assets/66086488/64c8e485-3402-468b-97d2-1dcbfada0a58)
-![Screenshot 2023-12-24 231226](https://github.com/tedhinklater/Vinyl-Sleeve/assets/66086488/1434f2e5-9e3b-407e-8bee-8b1529aefc40)
-![Screenshot 2023-12-24 231237](https://github.com/tedhinklater/Vinyl-Sleeve/assets/66086488/a1b2a476-bae4-47f2-9865-e35ac03c14ce)
-![Screenshot 2023-12-24 231316](https://github.com/tedhinklater/Vinyl-Sleeve/assets/66086488/20df547d-99d5-4223-86a7-374ff7237fe3)
-![Screenshot 2023-12-25 000248](https://github.com/tedhinklater/Vinyl-Sleeve/assets/66086488/1c9de663-c7ff-4a2a-8a13-1ad6e815eabb)
+![Screenshot 2023-12-28 233436](https://github.com/tedhinklater/Vinyl-Sleeve/assets/66086488/655c1870-9142-4ccf-8af5-05e096d41441)
+![Screenshot 2023-12-28 233657](https://github.com/tedhinklater/Vinyl-Sleeve/assets/66086488/ff4ade5b-f9a7-467c-9480-12bd2de76519)
+![Screenshot 2023-12-28 233513](https://github.com/tedhinklater/Vinyl-Sleeve/assets/66086488/5a13199f-29cc-45ac-93ba-cf6a2ac9ea4b)
+![Screenshot 2023-12-28 233524](https://github.com/tedhinklater/Vinyl-Sleeve/assets/66086488/0f12d757-5026-4e7a-aca6-5c9cc6ce3b10)
+![Screenshot 2023-12-28 233506](https://github.com/tedhinklater/Vinyl-Sleeve/assets/66086488/2bacdce7-6bce-4923-9a57-1565d21be5c6)
