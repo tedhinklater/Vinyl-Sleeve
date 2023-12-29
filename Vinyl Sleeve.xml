@@ -5,9 +5,10 @@
     <settings backgroundImage="vinylbg.png" backgroundWidth="1920" backgroundHeight="1080" />
 
 
+   <!-- Album Cover -->
+<element name="#Cover" type="AlbumCover" id="Tracks[0]" xAnchor="Panel.22.7" x="0" yAnchor="Panel.20.5" y="0" align="Top.Left" widthDock="Panel.Height.61" width="0" heightDock="Panel.Height.61" height="0" brightness="1.0"/>
 
-    <element name="#Cover" type="AlbumCover" id="Tracks[0]" xAnchor="Panel.22.7" x="0" yAnchor="Panel.20.5" y="0" align="Top.Left" widthDock="Panel.Height.61" width="0" heightDock="Panel.Height.61" height="0" brightness="1.0"/>
-
+   <!-- Vinyl Text -->
 <element type="Field" id="albumArtist" xAnchor="#Cover.111" x="0" yAnchor="#Cover.42" y="0" align="Center" widthDock="x:#Cover.140" font="Lemon Milk" style="Regular" size="10" fg="0,0,0" />
 <element type="Field" id="publisher" xAnchor="#Cover.111" x="0" yAnchor="#Cover.46" y="0" align="Center" widthDock="x:#Cover.140" font="Lemon Milk" style="Regular" size="6" fg="0,0,0" />
 <element type="Field" id="Title" xAnchor="#Cover.111" x="0" yAnchor="#Cover.53" y="0" align="Center" widthDock="x:#Cover.140" font="Lemon Milk" style="Bold" size="10" fg="0,0,0" />
@@ -28,6 +29,7 @@
 	<element type="PlayerBar" xAnchor="Panel.0" x="0" yAnchor="Panel.0" y="0" width="0" height="0"/>
 
 	<element type="Block" xAnchor="#Cover.0" x="0" yAnchor="#Cover.Bottom" y="0" widthDock="x:Panel.Right" width="0" heightDock="y:Panel.Bottom" height="0" fg="0,255,255,255" mouseOverFg="255,112, 47, 37" bg="0,0,0,0" mouseOverBg="0,0,0,0">
+
 		<element type="Text" xAnchor="#Cover.Right" x="420" yAnchor="#Cover.Bottom" y="100" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPrevious">&#xE100;</element>
 
 		<element type="Text" xAnchor="#Cover.Right" x="564" yAnchor="#Cover.Bottom" y="100" widthDock="Panel.50" width="0" font="Segoe MDL2 Assets" style="Regular" size="20" fg="0,255,255,255" mouseOverFg="195,0,82" onClick="PlayPause" visibleTrigger="Playing">&#xE103;</element>
